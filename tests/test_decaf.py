@@ -10,8 +10,8 @@ from sklearn import preprocessing
 from sklearn.metrics import precision_score, recall_score, roc_auc_score
 from sklearn.neural_network import MLPClassifier
 
-from decaf.DECAF import DECAF
-from decaf.data import DataModule
+from DECAF.DECAF import DECAF
+from DECAF.data import DataModule
 from .utils import gen_data_nonlinear, load_adult, get_metrics
 
 

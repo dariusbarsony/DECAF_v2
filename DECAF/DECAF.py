@@ -8,7 +8,7 @@ import scipy.linalg as slin
 import torch
 import torch.nn as nn
 
-import decaf.logger as log
+import DECAF.logger as log
 
 
 class TraceExpm(torch.autograd.Function):
